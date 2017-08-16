@@ -1,0 +1,79 @@
+/* margin (top, right, bottom, left) */
+
+
+html,body {
+    width:     98%;
+	max-width: 100%;
+	margin:    0 auto;
+	padding:   0px 0px 10px 0px;
+	color:     #000000;
+	text-align: left;
+	font-size: 12px;
+	font-style:  normal;
+	font-family: verdana, helvetica, arial, sans-serif;
+}	 
+
+img,embed,object,video {
+	max-width: 100%;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+h3 .mainTitle {
+	text-align: left;
+	font-size: 1.5em;
+}
+
+/*** 
+[data-field="rs"] {
+	width: 5%;
+}
+[data-field="title"] {
+	width: 20%;
+}
+[data-field="timestamp"] {
+	width: 15%;
+}
+[data-field="size"] {
+	width: 5%;
+}
+[data-field="wordcount"] {
+	width: 5%;
+}
+[data-field="snippet"] {
+	width: 5%;
+}
+***/
+
+.center {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.searchWiki {
+	padding: 3em 0em 0em 0em;
+}
+
+.table-striped:nth-child(even) {
+	background-color: #FFFFE0;
+}
+
+.searchTerm	{
+  padding: 0.5em;
+  font-size: 1.0em;
+  width:20%;
+  -webkit-transition:width 0.3s ease-in-out;
+}
+
+.searchTerm:focus	{
+  width:50%;
+  -webkit-transition:width 0.5s ease-in-out;
+}
+
+.searchLabel {
+	font-size: 1.5em;
+	font-style:  normal;
+	padding: 2em 1em 0em 0em;
+}
